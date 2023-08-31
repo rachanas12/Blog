@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="full">
+    <%- include("./partials/nav.ejs")%>
+    <div class="container" id="lists">
+        <div class="content">
+
+                <div>
+                    <h3><%=blog.title%></h3> 
+                    <p><%=blog.snippet%></p>
+                    <p><%=blog.description%></p>
+                    <img src="<%=newString%>" alt="some photo">
+                </div>
+        </div>
+    </div>
+    <%- include("./partials/footer.ejs")%>
+</nav>
+
+</body>
+</html>

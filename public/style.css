@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full{
+    height: 650px;width: 100%;
+    background-image: url(./bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    color: white;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+#logo{
+    height: 90px;width: 150px;background-color: rgba(0, 0, 0, 0.5);
+}
+#navcontent ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#navcontent ul li{
+    list-style: none;
+    padding: 15px;
+}
+#navcontent ul li a{
+    color: white;text-decoration: none;
+    font-size: 3ch;font-weight: 600;
+    width: auto;
+   
+}
+#navcontent ul li a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#footer{width: 100%;
+    font-size: 2ch;
+    position: absolute;
+    bottom: 0px;text-align:center  ;font-weight:bold ;
+}
+.container{
+    height: auto;min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;color: white;
+}
+#aboutcontent{
+    display: flex;justify-content: space-evenly;align-items: center;
+}
+#lists{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151),rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.329));
+}
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.151),rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.329));
+
+}
+.content{
+    height: auto;width: auto;padding: 10px;display: flex;justify-content: space-evenly;align-items: center;flex-direction: column;
+}
+form{
+    height: auto;
+    max-width:max-content;
+    border: 2px solid black;padding: 20px;
+    background-color: rgba(0, 0, 0, 0.808);color: white;
+    text-align: center;border-radius: 10px;
+}
+legend{
+    font-size: 6ch;color: aqua;text-decoration: underline;
+}
+
+label{
+    font-size: 3ch;
+}
+input{
+    width: 200px;height: 30px;background-color: rgba(0, 0, 0, 0.863);color: white;
+}
+button{
+    width: 150px;height: 40px;background-color: yellow;border-radius: 10px;font-size: 2.3ch;font-weight: 600;
+}
+button:hover{
+    cursor: pointer;opacity: 0.5;border-radius: 20px;
+}
+.content h2{
+    font-size: 6ch;text-decoration: underline;color: greenyellow;
+}
+#photo1{
+    height: 250px;width: 250px;
+    border-radius: 50px;
+}
+#aboutcontent p{
+    font-size: 2.5ch;
+    width: 500px;padding: 30px;text-align: justify;
+}
+#listslink{
+    text-decoration: none;color: white;
+}
+#listslink>div{
+    margin-top: 50px;cursor: pointer;
+}
+#listslink>div>h3{
+    text-decoration: underline;
+color: rgb(8, 243, 86);
+}
